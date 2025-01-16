@@ -25,6 +25,15 @@
     <meta name="author" content="Jandagacor">
     <meta name="distribution" content="global">
     <meta name="publisher" content="Jandagacor">
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "89d2a5bb-cdad-4f17-9dca-ee609ece0160",
+    });
+  });
+</script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
